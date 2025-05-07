@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход | Stratify</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">Stratify</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">На главную</a></li>
+                        <li><a href="register.html">Регистрация</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="auth-container">
+        <div class="auth-form">
+            <h1>Вход в аккаунт</h1>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn btn-auth">Войти</button>
+                <div class="auth-links">
+                    <a href="#">Забыли пароль?</a>
+                    <span>Нет аккаунта? <a href="register.html">Зарегистрируйтесь</a></span>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2023 Stratify. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

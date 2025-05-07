@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина | Stratify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">Stratify</div>
+                <div class="search">
+                    <input type="text" placeholder="Поиск товаров...">
+                </div>
+                <div class="user-actions">
+                    <a href="login.html">Вход</a>
+                    <a href="register.html">Регистрация</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Мой профиль</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">Ваша корзина</h1>
+        
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="item-img" style="background-image: url('https://via.placeholder.com/100');"></div>
+                    <div class="item-info">
+                        <h3>Диван "Комфорт"</h3>
+                        <p>Код товара: DV-12345</p>
+                    </div>
+                    <div class="item-price">25 990 ₽</div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <div class="item-total">25 990 ₽</div>
+                    <button class="item-remove">&times;</button>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="item-img" style="background-image: url('https://via.placeholder.com/100');"></div>
+                    <div class="item-info">
+                        <h3>Настольная лампа</h3>
+                        <p>Код товара: LP-54321</p>
+                    </div>
+                    <div class="item-price">2 390 ₽</div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>2</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <div class="item-total">4 780 ₽</div>
+                    <button class="item-remove">&times;</button>
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Итого</h3>
+                <div class="summary-row">
+                    <span>Товары (2)</span>
+                    <span>30 770 ₽</span>
+                </div>
+                <div class="summary-row">
+                    <span>Доставка</span>
+                    <span>Бесплатно</span>
+                </div>
+                <div class="summary-total">
+                    <span>К оплате</span>
+                    <span>30 770 ₽</span>
+                </div>
+                <button class="btn btn-checkout">Оформить заказ</button>
+                <a href="index.html" class="continue-shopping">Продолжить покупки</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Возврат</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Stratify. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

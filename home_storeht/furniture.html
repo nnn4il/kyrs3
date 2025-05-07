@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мебель для дома | Stratify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">Stratify</div>
+                <div class="search">
+                    <input type="text" placeholder="Поиск товаров...">
+                </div>
+                <div class="user-actions">
+                    <a href="login.html">Вход</a>
+                    <a href="register.html">Регистрация</a>
+                    <a href="cart.html">Корзина (0)</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav">Главная</a></li>
+                    <li><a href="catalog.html" class="nav">Каталог</a></li>
+                    <li><a href="furniture.html " class="nav">Мебель</a></li>
+                    <li><a href="textile.html" class="nav">Текстиль</a></li>
+                    <li><a href="decor.html" class="nav">Декор</a></li>
+                    <li><a href="kitchen.html" class="nav">Кухня</a></li>
+                    <li><a href="contacts.html" class="nav">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="breadcrumbs">
+            <a href="index.html">Главная</a> > <a href="catalog.html">Каталог</a> > <span>Мебель</span>
+        </div>
+        
+        <h1 class="section-title">Мебель для дома</h1>
+        
+        <div class="subcategories-grid">
+            <a href="#" class="subcategory-card">
+                <div class="subcategory-img" style="background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc')"></div>
+                <h3>Гостиная</h3>
+                <p>Диваны, кресла, журнальные столики</p>
+            </a>
+            
+            <a href="#" class="subcategory-card">
+                <div class="subcategory-img" style="background-image: url('https://images.unsplash.com/photo-1583847268964-b28dc8f51f92')"></div>
+                <h3>Спальня</h3>
+                <p>Кровати, матрасы, комоды</p>
+            </a>
+            
+            <a href="#" class="subcategory-card">
+                <div class="subcategory-img" style="background-image: url('https://images.unsplash.com/photo-1565538810643-b5bdb714032a')"></div>
+                <h3>Столовая</h3>
+                <p>Обеденные столы и стулья</p>
+            </a>
+            
+            <a href="#" class="subcategory-card">
+                <div class="subcategory-img" style="background-image: url('https://images.unsplash.com/photo-1592078615290-033ee584e267')"></div>
+                <h3>Офисная</h3>
+                <p>Письменные столы, кресла</p>
+            </a>
+            
+            <a href="#" class="subcategory-card">
+                <div class="subcategory-img" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7')"></div>
+                <h3>Прихожая</h3>
+                <p>Шкафы, вешалки, банкетки</p>
+            </a>
+            
+            <a href="#" class="subcategory-card">
+                <div class="subcategory-img" style="background-image: url('https://images.unsplash.com/photo-1600210492493-0946911123ea')"></div>
+                <h3>Детская</h3>
+                <p>Кроватки, пеленальные столики</p>
+            </a>
+        </div>
+        
+        <div class="popular-furniture">
+            <h2 class="section-title">Популярная мебель</h2>
+            
+            <div class="filters">
+                <div class="filter">
+                    <label>Стиль:</label>
+                    <select>
+                        <option>Все</option>
+                        <option>Скандинавский</option>
+                        <option>Лофт</option>
+                        <option>Классика</option>
+                        <option>Модерн</option>
+                    </select>
+                </div>
+                
+                <div class="filter">
+                    <label>Материал:</label>
+                    <select>
+                        <option>Все</option>
+                        <option>Дерево</option>
+                        <option>МДФ</option>
+                        <option>Металл</option>
+                        <option>Пластик</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Пример одного товара -->
+                <div class="product-card">
+                    <!-- <div class="product-badge">Хит продаж</div> -->
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc')"></div>
+                    <h3>Угловой диван "Милан"</h3>
+                    <div class="product-features">
+                        <span>Размер: 220x160 см</span>
+                        <span>Материал: ткань</span>
+                    </div>
+                    <div class="price-container">
+                        <p class="price">45 990 ₽</p>
+                        <p class="old-price">54 990 ₽</p>
+                    </div>
+                    <button class="add-to-cart">В корзину</button>
+                </div>
+                <!-- Еще 7-11 аналогичных товаров -->
+            </div>
+        </div>
+        
+        <!-- <div class="brands-section">
+            <h3>Популярные бренды</h3>
+            <div class="brands-grid">
+                <img src="https://via.placeholder.com/150x80?text=IKEA" alt="IKEA">
+                <img src="https://via.placeholder.com/150x80?text=Hoff" alt="Hoff">
+                <img src="https://via.placeholder.com/150x80?text=Шатура" alt="Шатура">
+                <img src="https://via.placeholder.com/150x80?text=Ангстрем" alt="Ангстрем">
+            </div>
+        </div> -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>+7 (123) 456-78-90</p>
+                    <p>info@stratify.ru</p>
+                    <p>Москва, ул. Примерная, 123</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Stratify. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
